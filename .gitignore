@@ -55,5 +55,5 @@ jspm_packages/
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
-# JetBrains  IDEs
+# JetBrains IDEs
 .idea

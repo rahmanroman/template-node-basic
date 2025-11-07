@@ -1,9 +1,11 @@
 {
   "name": "template-node-basic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
-    "dev": "node --env-file=./.env --no-warnings=ExperimentalWarning --loader ts-node/esm src/index.ts"
+    "dev": "node --env-file=./.env --no-warnings=ExperimentalWarning --loader ts-node/esm src/index.ts",
+    "serve": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/index.ts",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "Roman Rakhman",
@@ -16,6 +18,10 @@
     "@stylistic/eslint-plugin": "4.2.0",
     "eslint": "9.23.0",
     "typescript": "5.8.2",
-    "typescript-eslint": "8.28.0"
+    "typescript-eslint": "8.28.0",
+    "vitest": "4.0.8"
+  },
+  "engines": {
+    "node": ">=20.19"
   }
 }
