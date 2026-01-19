@@ -67,4 +67,4 @@ npm test
 
 ## 📄 License
 This project is licensed under the [MIT License](LICENSE).
-Built with ❤️ by [Roman Rakhman](https://github.com/romanrakhman)
+Built with ❤️ by [Roman Rakhman](https://github.com/rahmanroman)
